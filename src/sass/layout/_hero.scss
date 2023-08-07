@@ -38,7 +38,7 @@
     left: 0;
     padding: 0 20px;
     /* Use background-image to set the PNG as the background */
-    background-image: url(./public/image/link1.png);
+    background-image: url('/image/link1.png');
     background-size: 122px 24px;
     /* Set the background size */
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@
     display: inline-flex;
 
     &:before {
-        content: url("../../../public/svgs/arroeleft.svg");
+        content: url("/svgs/arroeleft.svg");
       
         cursor: pointer;
     }
@@ -78,7 +78,7 @@
 }
 
 .button-arrow-right:before {
-    content: url("../../../public/svgs/arrowright.svg");
+    content: url("/svgs/arrowright.svg");
   
     cursor: pointer;
 

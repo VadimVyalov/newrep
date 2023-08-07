@@ -91,7 +91,7 @@ justify-content: space-between;
 
     // Checkbox custom styles
     &::before {
-        content: url("../../../public/svgs/path.svg");
+        content: url("/svgs/path.svg");
         display: inline-block;
         width: 16px;
         height: 16px;
